@@ -1,0 +1,13 @@
+GET /monitoring/components/{componentId}/metrics/{metricType}
+Retrieve specific metrics for a component.
+
+POST /monitoring/alerts/{alertId}/acknowledge
+Acknowledge a triggered alert.
+
+PUT /monitoring/components/{componentId}/thresholds/{metric}
+Update threshold for a monitored metric.
+
+DELETE /monitoring/logs/{componentId}/before/{timestamp}
+Delete logs before a specific timestamp.
+
+
