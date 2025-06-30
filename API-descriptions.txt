@@ -1,3 +1,5 @@
+#Preliminary version 0.1
+
 GET /monitoring/components/{componentId}/metrics/{metricType}
 Retrieve specific metrics for a component.
 
